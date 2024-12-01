@@ -17,6 +17,7 @@ class Order(BaseModel):
     subtotal: float
     taxes: float
     discounts: float
+    total: float
     user_id: int
     user_name: str
     rounds: List[Round]
